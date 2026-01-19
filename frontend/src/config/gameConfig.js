@@ -20,7 +20,7 @@ export const GAME_CONFIG = {
   maxBet: 100,
 
   // Branding
-  domain: 'skywardtracker.com',
+  domain: 'skywardstats.com',
   trademark: 'Skyward is a trademark of BGaming.',
   description: 'A peaceful hot air balloon crash game with a calming atmosphere and altitude-based progression.',
   tagline: 'Rise with the winds',
@@ -65,15 +65,15 @@ export const GAME_CONFIG = {
 
   // Contact
   emails: {
-    contact: 'contact@skywardtracker.com',
-    business: 'business@skywardtracker.com',
-    legal: 'legal@skywardtracker.com',
-    privacy: 'privacy@skywardtracker.com',
+    contact: 'contact@skywardstats.com',
+    business: 'business@skywardstats.com',
+    legal: 'legal@skywardstats.com',
+    privacy: 'privacy@skywardstats.com',
   },
 
   // SEO
   seo: {
-    title: 'Skyward Tracker - Live Statistics & Altitude Analysis',
+    title: 'Skyward Stats - Live Statistics & Altitude Analysis',
     description: 'Real-time Skyward game statistics, RTP tracking, and altitude history analysis. Track the peaceful hot air balloon journey from BGaming.',
     keywords: ['skyward', 'skyward game', 'skyward statistics', 'skyward tracker', 'bgaming skyward', 'crash game', 'hot air balloon game'],
   },

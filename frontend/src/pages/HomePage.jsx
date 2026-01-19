@@ -171,6 +171,27 @@ function HomePage({ rounds, summary, distribution, recentRounds, loading, refetc
               </div>
             </section>
 
+            {/* About Game Section */}
+            <section className="mb-6">
+              <div className="card">
+                <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
+                  <span>🎈</span>
+                  What is Skyward?
+                </h2>
+                <div className="prose prose-invert prose-sm max-w-none text-slate-300 space-y-4">
+                  <p>Skyward is BGaming's serene take on the crash game genre, launched in 2023 with a peaceful hot air balloon theme that sets it apart from high-intensity competitors. While most crash games feature planes, jets, or rockets racing upward, Skyward offers players a calm, contemplative experience as a colorful balloon gently ascends through the clouds.</p>
+                  <p>The gameplay mechanics follow the classic crash formula: the balloon rises and your multiplier increases, challenging you to cash out before it descends. What makes Skyward special is its atmospheric design - soft gradients, floating clouds, and ambient sounds create a relaxing environment that appeals to players seeking entertainment without anxiety-inducing visuals.</p>
+                  <p>BGaming engineered Skyward with their proven provably fair technology, maintaining a competitive 97% RTP while offering multipliers up to 10,000x. The game features dual bet slots like Aviator, allowing for hedging strategies where one bet targets conservative multipliers while another aims higher. The tranquil theme makes extended sessions more enjoyable.</p>
+                  <p>Despite its peaceful appearance, Skyward follows the same mathematical principles as all crash games. Each flight is independent, outcomes are cryptographically random, and no pattern from previous rounds affects future results. The house maintains its 3% edge consistently. Enjoy the journey responsibly.</p>
+                </div>
+                <div className="mt-4 pt-4 border-t border-slate-700/50 flex flex-wrap gap-2">
+                  <span className="px-3 py-1 bg-slate-700/50 rounded-full text-xs text-slate-400">RTP: 97%</span>
+                  <span className="px-3 py-1 bg-slate-700/50 rounded-full text-xs text-slate-400">Provider: BGaming</span>
+                  <span className="px-3 py-1 bg-slate-700/50 rounded-full text-xs text-slate-400">Max: 10,000x</span>
+                </div>
+              </div>
+            </section>
+
             {/* Distribution Chart */}
             <section className="mb-6">
               <DistributionChart data={distribution} />
